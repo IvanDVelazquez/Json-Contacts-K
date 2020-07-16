@@ -1,8 +1,5 @@
 package com.example.jsoncontactk
 
-class Name {
-    var title=""
-    var first=""
-    var last=""
+import java.io.Serializable
 
-}
+data class Name(val title: String, val first: String, val last: String):Serializable

@@ -1,8 +1,5 @@
 package com.example.jsoncontactk
 
-class Picture {
-    var large=""
-    var medium=""
-    var thumbnail=""
+import java.io.Serializable
 
-}
+data class Picture(val large: String, val medium: String, val thumbnail: String):Serializable

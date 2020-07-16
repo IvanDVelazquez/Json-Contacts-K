@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">JsonContact K</string>
-    <string name="url">https://randomuser.me/api/?results=2&amp;inc=gender,name,email,picture,</string>
+    <string name="url">https://randomuser.me/api/?results=2&amp;inc=gender,name,email,picture</string>
 </resources>
